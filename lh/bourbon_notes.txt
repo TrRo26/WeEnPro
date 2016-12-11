@@ -1,0 +1,4 @@
+gem 'bourbon'
+
+rename application.css to application.scss
+Delete the sprocket directive in application.scss: *= require_tree .
