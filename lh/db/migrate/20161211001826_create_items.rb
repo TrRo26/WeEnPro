@@ -4,7 +4,8 @@ class CreateItems < ActiveRecord::Migration
       t.string :title
       t.string :description
       t.string :justification
-      t.string :rating
+      t.integer :rating
+      t.string :category
 
       t.timestamps null: false
     end

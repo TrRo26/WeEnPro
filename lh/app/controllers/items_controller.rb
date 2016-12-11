@@ -6,7 +6,8 @@ class ItemsController < ApplicationController
 # edit
 
 def show
-
+  @l_items = Item.all.where(category: 'love')
+  @h_items = Item.all.where(category: 'hate')
 end
 
 # update (patch)
